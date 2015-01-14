@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<title>Donate | Pragya Epilepsy Research Center</title>
+	<head>
+		
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="home.css">
+		<link rel="stylesheet" type="text/css" href="helper.css">
+		<link rel="shortcut icon" href="/project/photos/icon.ico">
+	<style>
+			.menu{
+				font-size: 18px;
+			}
+
+	</style>
+	</head>
+
+
+	<body>
+		<div class="overlay"></div>
+		
+
+
+		<div class="topright">
+			<img src="/project/photos/ashish.png" style="width:190px;height:190px;margin-left:5px;float:left;margin-top:-15px">
+			<span style="font-size:28px;letter-spacing:3px;font-family:Arial;"><center><a id="top">Shree Pragya Epilepsy Research Center</a></center></span>
+			<span style="font-size:28px;letter-spacing:2px;font-family:Arial;"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
+			<span style="font-size:18px;"><center>Gulabpura, (Dist. Bhilwara) 311021</center></span>
+			<span style="position:absolute;bottom:30px;left:220px;">Reg. No. 205/83 Dated 15/9/1984</span>
+			
+			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://twitter.com/ashishsurana1" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
+			<div class="mrqs">
+				<marquee style="text-size:17px;margin-right:10px;">Donations Are Exempted Under Section 80 G Of the Income Tax Act 1961 vide IT Commissioner order no. 36/401 dated 02/07/1985.</marquee>
+			</div>	 
+
+		</div>
+
+
+		<div class="menu" align="center">
+				<p><ul class="menulist" >
+ 			<li><a href="/project/home.html">HOME</a></li>
+ 			|<li><a href="/project/aboutus.html">ABOUT US</a></li>
+ 			|<li><a href="/project/facilities.html">FACILITIES</a></li>
+			|<li><a href="/project/faqs.html">FAQs</a></li>
+			|<li><a href="/project/joinhands.html">DONATE</a></li>
+			|<li><a href="/project/contactus.html">CONTACT US</a></li>
+			</ul></p>
+		</div>
+			
+		
+		
+		
+
+
+
+		<div class="shortlist">
+			<h1>Useful Links</h2>
+			<ul style="list-style-type:none;margin-left:25px;">
+				<li><a href="/project/epilepsy.html">&ndash; Understand Epilepsy</a></li>
+				<li><a href="/project/governing.html">&ndash; Governing Body</a></li>
+				<li><a href="/project/media_room.html">&ndash; Media Room</a></li>
+				<li><a href="/project/gallary.html">&ndash; Gallary</a></li>
+				<li><a href="/project/balance.html">&ndash; Balance Sheets</a></li>
+				<li><a href="/project/events.html">&ndash; Events</a></li>
+				<li><a href="http://goo.gl/forms/Gu6unZvJ46">&ndash; Submit Queries</a></li>
+			</ul>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="content" >
+			<br>
+			<h3 ><center><q>There is no Exercise better for the heart than reaching down and lifting people up</q></center></h3>
+			<h1 style="text-decoration:underline;">Donors</h1>
+			<p style="font-size:15px;">There are various ways by which you can help our organisation for improving lives of people.
+
+			</p>
+			
+
+			<h3>1. Volunteering</h3>
+				<p>
+			<ul style="margin-left:40px;font-size:15px;">
+				
+				<li>You can create a social awareness in your locality through some rally/social media or organising some field trips.</li>
+				<li>You can spred the information about the organisation to the people so that more and more people can get help.</li>
+				<li>You Can share the messeges of upcoming event through Our Facebook page</li>
+				</p>
+			</ul>
+
+			<br>
+			<h2>2. Donate</h2>
+
+			<p >
+				To provide monetary support, please refer to the details below.<br>
+				<ul style="margin-left:80px;list-style-type:none;font-size:15px;">
+					<li>&ndash; Account Holder's Name: <b>Prayas</b></li>
+					<li>&ndash; Account Number: <b>8150100000475</b></li>
+					<li>&ndash; Bank's Name: <b>Bank of Baroda</b></li>
+					<li>&ndash; Location (Town): <b>Gulabpura</b></li>
+					<li>&ndash; Branch IFSC Code: <b>BARB0GULABP</b></li>
+
+				</ul>
+			</p>
+			<p style="margin-left:40px;text-indent:0px;">Also, you could send a cheque in favour of 'Prayas' to J-5A, Jhalana Institutional Area, Jaipur, Rajasthan, India. Alternatively, you can visit us at this address. You would be provided with a receipt for the same for tax exemption outlined in section 80(G) of the Income Tax Act, 1961 in India vide IT Commissioner order no. 36/401 dated 02/07/1985.</p>
+			<p style="margin-left:40px;text-indent:2em;">We are extremely thankful to all those who have supported us in cash, kind and spirit in the past and present.</p>
+			
+		</div>
+		
+		
+
+		<div class="footer">
+			<p><center>© Shree Pragya Mrigi Rog Nivarak Samiti, Gulabpura</center> </p>
+			<div class="gotop">
+				<a href="#top"><img  src="/project/photos/button-gototop.gif"></a>
+
+			</div>
+		</div>
+
+		<div class="event">
+			<a href="/project/events.html"><div class="innerdiv" ><h1><center>NEWS & EVENTS</center></h1></div></a>
+			
+			
+				
+			<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"><hr><a href="/project/events.html">The Upcoming Free checkup Camp will held on 15 November 2014. Kindly spread this message.</a><hr></marquee>
+			
+		
+		</div>
+
+	</body>
+</html>

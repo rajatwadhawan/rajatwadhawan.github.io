@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<title>Home | Pragya Epilepsy Research Center</title>
+	<head>
+		
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="home.css">
+		<link rel="stylesheet" type="text/css" href="helper.css">
+		<link rel="shortcut icon" href="/project/photos/icon.ico">
+		<script type="text/javascript">
+		var image1 = new Image()
+		image1.src = "/project/photos/sl1.jpg"
+		var image2 = new Image()
+		image2.src = "/project/photos/sl2.jpg"
+		var image3 = new Image()
+		image3.src = "/project/photos/front.jpg"
+		</script>
+	<style>
+			.menu{
+				font-size: 18px;
+			}
+
+	</style>
+	</head>
+
+
+	<body>
+		<div class="overlay"></div>
+		
+
+
+		<div class="topright">
+			<img src="http://49b5af5c747982f45fd7-dec8f175b0901987f30693abc46dc353.r35.cf2.rackcdn.com/icon/13/10/17/2a89d45ea801d8afe6a4a6ab207249b9.png" style="width:190px;height:190px;margin-left:5px;float:left;margin-top:-15px">
+			<span style="font-size:28px;letter-spacing:3px;font-family:Arial;"><center><a id="top">Shree Pragya Epilepsy Research Center</a></center></span>
+			<span style="font-size:28px;letter-spacing:2px;font-family:Arial;"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
+			<span style="font-size:18px;"><center>Gulabpura, (Dist. Bhilwara) 311021</center></span>
+			<span style="position:absolute;bottom:30px;left:220px;">Reg. No. 205/83 Dated 15/9/1984</span>
+			
+			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://twitter.com/ashishsurana1" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
+			<div class="mrqs">
+				<marquee style="text-size:17px;margin-right:10px;">Donations Are Exempted Under Section 80 G Of the Income Tax Act 1961 vide IT Commissioner order no. 36/401 dated 02/07/1985.</marquee>
+			</div>	 
+
+		</div>
+
+
+		<div class="menu" align="center">
+				<p><ul class="menulist">
+ 			<li><a href="/project/home.html">HOME</a></li>
+ 			|<li><a href="/project/aboutus.html">ABOUT US</a></li>
+ 			|<li><a href="/project/facilities.html">FACILITIES</a></li>
+			|<li><a href="/project/faqs.html">FAQs</a></li>
+			|<li><a href="/project/joinhands.html">DONATE</a></li>
+			|<li><a href="/project/contactus.html">CONTACT US</a></li>
+			</ul></p>
+		</div>
+			
+		
+		
+		
+
+
+
+		<div class="shortlist">
+			<h1>Useful Links</h2>
+			<ul style="list-style-type:none;margin-left:25px;">
+				<li><a href="/project/epilepsy.html">&ndash; Understand Epilepsy</a></li>
+				<li><a href="/project/governing.html">&ndash; Governing Body</a></li>
+				<li><a href="/project/media_room.html">&ndash; Media Room</a></li>
+				<li><a href="/project/gallary.html">&ndash; Gallary</a></li>
+				<li><a href="/project/balance.html">&ndash; Balance Sheets</a></li>
+				<li><a href="/project/events.html">&ndash; Events</a></li>
+				<li><a href="http://goo.gl/forms/Gu6unZvJ46" target="blank">&ndash; Submit Queries</a></li>
+
+				
+			</ul>
+		</div>
+
+
+		<div class="content" align="center">
+			<img src="/project/photos/front.jpg" style="width:100%;height:265px;border:2.5px solid;display: block;margin: 0 auto;" name="slide">
+			<script type="text/javascript">
+            var step=1;
+            function slideit()
+            {
+                document.images.slide.src = eval("image"+step+".src");
+                if(step<2)
+                    step++;
+                else if(step<3)
+                    step++;
+                else
+                    step=1;
+                setTimeout("slideit()",2000);
+            }
+            slideit();
+    </script>
+			<br>
+			<p >The Pragya Mrigi Rog Nivarak Samiti, Gulabpura( Shree Pragya Epilepsy Research Center ) is an organisation, imparting a helping hand for the patients. This Non Profit Organisation is serving the patients from last 36 years in treating epilepsy and providing satisfactory results.</p>
+
+				
+			<h1 >What is Epilepsy?</h1>
+			<p>Epilepsy is a common and diverse set of chronic neurological disorders characterized by seizures. Some definitions of epilepsy require that seizures be recurrent and unprovoked,but others require only a single seizure combined with brain alterations which increase the chance of future seizures. In many cases a cause cannot be identified; however, factors that are associated include brain trauma, strokes, brain cancer, and drug and alcohol misuse among others.</p>
+			<p>Epileptic seizures result from abnormal, excessive or hypersynchronous neuronal activity in the brain. About 50 million people worldwide have epilepsy, and nearly 80% of epilepsy occurs in developing countries. Epilepsy becomes more common as people age. Onset of new cases occurs most frequently in infants and the elderly. As a consequence of brain surgery, epileptic seizures may occur in recovering patients.</p>
+			<p>Epilepsy is usually controlled, but not cured, with medication. However, more than 30% of people with epilepsy do not have seizure control even with the best available medications. Surgery may be considered in difficult cases. Not all epilepsy syndromes are lifelong – some forms are confined to particular stages of childhood. Epilepsy should not be understood as a single disorder, but rather as syndromic with vastly divergent symptoms, all involving episodic abnormal electrical activity in the brain and numerous seizures.</p>
+			<p>
+		</div>
+
+
+		
+		
+
+		<div class="footer">
+			<p><center>© Shree Pragya Mrigi Rog Nivarak Samiti, Gulabpura</center> </p>
+			<div class="gotop">
+				<a href="#top"><img  src="/project/photos/button-gototop.gif"></a>
+
+			</div>
+		</div>
+
+		<div class="event">
+			<a href="/project/events.html"><div class="innerdiv" ><h1><center>NEWS & EVENTS</center></h1></div></a>
+			
+			
+				
+			<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"><hr><a href="/project/events.html">The Upcoming Free checkup Camp will held on 15 November 2014. Kindly spread this message.</a><hr></marquee>
+			
+		
+		</div>
+
+	</body>
+</html>
