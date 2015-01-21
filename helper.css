@@ -3,6 +3,9 @@
 			font-size:19px;
 			padding:17px;
 		}
+		.shortlist li{
+			display:inline;padding:10px;
+		}
 		.menulist a:hover{
 			
 			color:#B8B8B8;

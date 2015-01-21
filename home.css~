@@ -4,24 +4,27 @@
 			line-height: 135%;
 			background-color: transparent;
 		}
-		.logo { width:160px;height:160px;margin-left:5px;float:left;margin-top:-5px;background-color: #7CC2E9;
+		.logo { width:150px;height:150px;margin-left:5px;float:left;margin-top:-5px;background-color: #7CC2E9;
 
 		}
 		.topright {
 		
 			color:black;
 			height:200px;
-			width:900px;
+			width:800px;
 			position: relative;
 			line-height: 50px;
 			padding-top: 10px;
+			
+			border:2px solid;
+			border-bottom:0px;border-top:0px;
 			box-sizing: border-box;
 						
 		}
 		.menu {
 			
 			height:50px;
-			width: 900px;
+			width: 800px;
 			border-bottom: 2.5px solid;
 			background: linear-gradient(#7CC2E9,#FFFFFF);
 			padding:8px; 
@@ -29,20 +32,23 @@
 			box-sizing: border-box;
 			font-size: 18px;
 			letter-spacing:0.5px;
+			border:2px solid;
+			border-bottom:0px;
+			border-top:0px;
 			text-align: center;
-			
-
 		}
 		
 		
 		.shortlist{
+			width:800px;
+			color:black;			
+			border: 2px solid;
+			border-top:0.5px;
+border-bottom:0px;
+			position:relative;
+			box-sizing: border-box;
 			
-			width:230px;
-			position: absolute;
-			float: left;
-			border: 0px solid;
-			padding: 20px;
-
+			
 		}
 		.shortlistepi{
 			
@@ -56,19 +62,20 @@
 		}
 		.content {
 			color:black;
-			width: 690px;
+			width: 800px;
 			position:relative;
 			margin: auto;
 			border:2px solid;
 			padding: 10px;
 			text-align: left;
+			box-sizing: border-box;
 			border-top: 0px;
 			padding: 5px;	
 			
 		}
 		.event{
 			height: 300px;
-			width: 250px;
+			width: 150px;
 			top:250px;
 			right: 0px;
 			position: absolute;
@@ -107,7 +114,7 @@
 	
 			border:0px solid;
 			height:30px;
-			width:1075px;
+			width:800px;
 			padding: 0px;
 			bottom: 0px;
 			text-align: center;
@@ -150,7 +157,7 @@
   			  width: 100%;
    			 height: 100%;
     			background: linear-gradient(#A7D6F1,#FFFFFF);
-}
+		}
 
 		.gotop{
 			height: 22px;

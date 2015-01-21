@@ -1,34 +1,16 @@
-		a:link {
-			text-decoration: none;
-		}		
-		a:hover{			
-			color:black;
-
-		}
-		.list li {
-			display:inline;
-			font-size:19px;
-			margin: 15px;
-
-		}
-
-
-
-
-
-
-
-
 		.menulist li {
 			display:inline;
 			font-size:19px;
-			margin: 15px;
+			padding:17px;
+		}
+		.shortlist li{
+			display:inline;padding:17px;
 		}
 		.menulist a:hover{
 			
 			color:#B8B8B8;
 			 font-weight: bold;
-			font-size:20px;
+			font-size:22px;
 
 			
 		}
@@ -43,26 +25,7 @@
 		}
 
 
-
-
-
-
 		
-
-
-		.center{text-align: center;
-		}
-
-
-
-
-
-
-
-
-
-
-
 
 
 		p{
@@ -101,8 +64,23 @@
 		.BS{
 			width:400px;
 			height:600px;
-			
+			border: 1px solid;
 			display: block;
 			margin: 0 auto;
 		}
 	
+
+
+		.gtop {
+			width:50px;
+			height:30px;
+			top:1000px;
+			right: 15px;
+			float: right;
+			background-color: blue;
+			position: fixed;
+		}
+		.head1 {
+		font-size:28px;letter-spacing:1.5px;margin-top:-10px;
+		}
+		
