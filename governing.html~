@@ -1,9 +1,3 @@
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 	<title>Home | Pragya Epilepsy Research Center</title>
@@ -15,13 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="home.css">
 		<link rel="stylesheet" type="text/css" href="helper.css">
 		<link rel="shortcut icon" href="/project/photos/icon.ico">
-		
-	<style>
-			.menu{
-				font-size: 18px;
-			}
-
-	</style>
+	
 	</head>
 
 
@@ -31,13 +19,15 @@
 
 
 		<div class="topright">
-			<img src="/project/photos/ashish.png" style="width:190px;height:190px;margin-left:5px;float:left;margin-top:-15px">
-			<span style="font-size:28px;letter-spacing:3px;font-family:Arial;"><center><a id="top">Shree Pragya Epilepsy Research Center</a></center></span>
-			<span style="font-size:28px;letter-spacing:2px;font-family:Arial;"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
-			<span style="font-size:18px;"><center>Gulabpura, (Dist. Bhilwara) 311021</center></span>
+			<img class="logo" src="http://49b5af5c747982f45fd7-dec8f175b0901987f30693abc46dc353.r35.cf2.rackcdn.com/icon/13/10/17/2a89d45ea801d8afe6a4a6ab207249b9.png" alt="" >
+			<span class="head1" id="top"><center>Shree Pragya Epilepsy Research Center</center></span>
+			<span class="head1"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
+			<span style="font-size:18px;"><center>&ndash; Gulabpura, (Dist. Bhilwara) 311021 &ndash;</center></span>
+			
+			<center style="font-size:18px;">In Association with PKV Hospital, Bijainagar<a href="http://www.pkvhospital.com/"> &ndash; www.pkvhospital.com</a></center>
 			<span style="position:absolute;bottom:30px;left:220px;">Reg. No. 205/83 Dated 15/9/1984</span>
 			
-			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://twitter.com/ashishsurana1"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
+			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://www.facebook.com/pragyaepilepsycare" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
 			<div class="mrqs">
 				<marquee style="text-size:17px;margin-right:10px;">Donations Are Exempted Under Section 80 G Of the Income Tax Act 1961 vide IT Commissioner order no. 36/401 dated 02/07/1985.</marquee>
 			</div>	 
@@ -68,9 +58,10 @@
 				<li><a href="/project/epilepsy.html">&ndash; Understand Epilepsy</a></li>
 				<li><a href="/project/governing.html">&ndash; Governing Body</a></li>
 				<li><a href="/project/media_room.html">&ndash; Media Room</a></li>
-				<li><a href="/project/gallary.html">&ndash; Gallary</a></li>
+				<li><a href="/project/gallary.html">&ndash; Gallery</a></li>
 				<li><a href="/project/balance.html">&ndash; Balance Sheets</a></li>
 				<li><a href="/project/events.html">&ndash; Events</a></li>
+				<li><a href="/project/aware.html">&ndash; Spread Awareness</a></li>
 				<li><a href="http://goo.gl/forms/Gu6unZvJ46" target="_blank">&ndash; Submit Queries</a></li>
 
 				
@@ -82,28 +73,55 @@
 
 
 
-<div class="content" >
+<div class="content" style="height:300px;">
 			<h2 style="font-size:19px;">Governing Body</h2>
-			<p>
-			<ul style="margin-left:30px;">
-				<li>Patrons</li>
-				<dd><li>Rajenra Kumar Snchetee&nbsp;&nbsp;Bheem Singh Sanchetee</li></dd>
-				<dd>Gulabpura&nbsp;gulabpura</dd>
-				<li>President</li>
-				<li>Secretiary</li>
-				<li>Joint Secretary</li>
-				<li>Treasurer</li>
-			</ul>
-		</p>
-			<h2 style="font-size:19px;">Advisory Pannel</h2>
-			<p>
-			<ul style="list-style-type:none;margin-left:30px;">
-				<li>J.C. ladha&nbsp;MD RSWM</li>
-				<li>J.C. ladha</li>
-				<li>J.C. ladha</li>
-				<li>J.C. ladha</li>
-				<li>J.C. ladha</li>
-			</ul>	</p>
+			<center>
+				<table style="font-weight: bold;">
+					<col width="150">
+					<col width="260">
+					<col width="110">
+					
+					<tr>
+						<td>Chairman</td>
+						<td>Mr. Kamal Chand Khatod</td>
+						<td>(Chennai)</td>
+						<td>9840441000</td>
+					</tr>
+					<tr><td>Working President</td>
+						<td>Mr. Mahaveer Sojatiya</td>
+						<td>(Pali)</td>
+						<td>9414121242</td>
+					</tr>
+					<tr>
+						<td>Secretery</td>
+						<td>Mr. Ghevar Chand Shreeshreemal</td>
+						<td>(Gulabpura)</td>
+						<td>9413880279</td>
+					</tr>
+					<tr>
+						<td>Jt-Secretery</td>
+						<td>Mr. Pradeep kumar Surana</td>
+						<td>(Gulabpura)</td>
+						<td>9414306294</td>
+					</tr>
+					<tr>
+						<td>Treasurer</td>
+						<td>Mr. Harish Chordiya</td>
+						<td>(Bijainagar)</td>
+						<td>9414306294</td>
+					</tr>
+				</table></center>
+			
+
+
+
+
+
+
+			
+
+
+
 		</div>
 
 

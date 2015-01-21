@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<title>Home | Pragya Epilepsy Research Center</title>
+
 	<head>
+		<title>Home | Pragya Epilepsy Research Center</title>
 		
 		<meta charset="UTF-8">
 
@@ -13,16 +14,11 @@
 		var image1 = new Image()
 		image1.src = "/project/photos/sl1.jpg"
 		var image2 = new Image()
-		image2.src = "/project/photos/sl2.jpg"
+		image2.src = "/project/photos/gal1.jpg"
 		var image3 = new Image()
 		image3.src = "/project/photos/front.jpg"
 		</script>
-	<style>
-			.menu{
-				font-size: 18px;
-			}
-
-	</style>
+	
 	</head>
 
 
@@ -32,13 +28,15 @@
 
 
 		<div class="topright">
-			<img src="http://49b5af5c747982f45fd7-dec8f175b0901987f30693abc46dc353.r35.cf2.rackcdn.com/icon/13/10/17/2a89d45ea801d8afe6a4a6ab207249b9.png" style="width:190px;height:190px;margin-left:5px;float:left;margin-top:-15px">
-			<span style="font-size:28px;letter-spacing:3px;font-family:Arial;"><center><a id="top">Shree Pragya Epilepsy Research Center</a></center></span>
-			<span style="font-size:28px;letter-spacing:2px;font-family:Arial;"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
-			<span style="font-size:18px;"><center>Gulabpura, (Dist. Bhilwara) 311021</center></span>
+			<img class="logo" src="http://49b5af5c747982f45fd7-dec8f175b0901987f30693abc46dc353.r35.cf2.rackcdn.com/icon/13/10/17/2a89d45ea801d8afe6a4a6ab207249b9.png" alt=""  >
+			<span class="head1" id="top"><center>Shree Pragya Epilepsy Research Center</center></span>
+			<span class="head1"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
+			<span style="font-size:18px;"><center>&ndash; Gulabpura, (Dist. Bhilwara) 311021 &ndash;</center></span>
+			
+			<center style="font-size:18px;">In Association with PKV Hospital, Bijainagar<a href="http://www.pkvhospital.com/"> &ndash; www.pkvhospital.com</a></center>
 			<span style="position:absolute;bottom:30px;left:220px;">Reg. No. 205/83 Dated 15/9/1984</span>
 			
-			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://twitter.com/ashishsurana1" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
+			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://www.facebook.com/pragyaepilepsycare" target="_blank"><img src="/project/photos/Facebook_icon.png" alt="" style="width:27px;height:27px;"></a></span>
 			<div class="mrqs">
 				<marquee style="text-size:17px;margin-right:10px;">Donations Are Exempted Under Section 80 G Of the Income Tax Act 1961 vide IT Commissioner order no. 36/401 dated 02/07/1985.</marquee>
 			</div>	 
@@ -46,15 +44,15 @@
 		</div>
 
 
-		<div class="menu" align="center">
-				<p><ul class="menulist">
- 			<li><a href="/project/home.html">HOME</a></li>
+		<div class="menu">
+			<ul class="menulist">
+ 			<li><a href="/project/index.html">HOME</a></li>
  			|<li><a href="/project/aboutus.html">ABOUT US</a></li>
  			|<li><a href="/project/facilities.html">FACILITIES</a></li>
 			|<li><a href="/project/faqs.html">FAQs</a></li>
 			|<li><a href="/project/joinhands.html">DONATE</a></li>
 			|<li><a href="/project/contactus.html">CONTACT US</a></li>
-			</ul></p>
+			</ul>
 		</div>
 			
 		
@@ -69,9 +67,10 @@
 				<li><a href="/project/epilepsy.html">&ndash; Understand Epilepsy</a></li>
 				<li><a href="/project/governing.html">&ndash; Governing Body</a></li>
 				<li><a href="/project/media_room.html">&ndash; Media Room</a></li>
-				<li><a href="/project/gallary.html">&ndash; Gallary</a></li>
-				<li><a href="/project/balance.html">&ndash; Balance Sheets</a></li>
+				<li><a href="/project/gallary.html">&ndash; Gallery</a></li>
+				<li><a href="/project/balance.html">&ndash; Balance Sheets </a></li>
 				<li><a href="/project/events.html">&ndash; Events</a></li>
+				<li><a href="/project/aware.html">&ndash; Spread Awareness</a></li>
 				<li><a href="http://goo.gl/forms/Gu6unZvJ46" target="blank">&ndash; Submit Queries</a></li>
 
 				
@@ -79,8 +78,8 @@
 		</div>
 
 
-		<div class="content" align="center">
-			<img src="/project/photos/front.jpg" style="width:100%;height:265px;border:2.5px solid;display: block;margin: 0 auto;" name="slide">
+		<div class="content" >
+			<img src="/project/photos/front.jpg" alt="" class="hometop" id="slide">
 			<script type="text/javascript">
             var step=1;
             function slideit()
@@ -92,7 +91,7 @@
                     step++;
                 else
                     step=1;
-                setTimeout("slideit()",2000);
+                setTimeout("slideit()",1700);
             }
             slideit();
     </script>
@@ -108,26 +107,35 @@
 		</div>
 
 
-		
+			
 		
 
-		<div class="footer">
-			<p><center>© Shree Pragya Mrigi Rog Nivarak Samiti, Gulabpura</center> </p>
+		<div class="footer"> 
+		<center>© Shree Pragya Mrigi Rog NivarakSamiti, Gulabpura</center>
 			<div class="gotop">
-				<a href="#top"><img  src="/project/photos/button-gototop.gif"></a>
+				<a href="#top"><img  src="/project/photos/button-gototop.gif" alt=""></a>
 
 			</div>
 		</div>
 
 		<div class="event">
-			<a href="/project/events.html"><div class="innerdiv" ><h1><center>NEWS & EVENTS</center></h1></div></a>
-			
-			
+			<a href="/project/events.html"><div class="innerdiv" ><center>NEWS & EVENTS</center></div></a>
 				
-			<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"><hr><a href="/project/events.html">The Upcoming Free checkup Camp will held on 15 November 2014. Kindly spread this message.</a><hr></marquee>
+			<marquee behavior="scroll" direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();"><hr><a href="/project/events.html">The Upcoming Free checkup Camp will held on 15 November 2014. Kindly spread this message.</a><hr></marquee>
 			
 		
 		</div>
+<div class="gtop">
+<img src="/project/photos/Facebook_icon.png" alt="" style="width:100%;height:100%;left:20px;">
+		</div>
+			
+			
+			
+		
+		
+
+
+
 
 	</body>
 </html>

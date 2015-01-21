@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<title>Know Epilepsy | Pragya Epilepsy Research Center</title>
+
 	<head>
-		
+			<title>Know Epilepsy | Pragya Epilepsy Research Center</title>
 		<meta charset="UTF-8">
 
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
@@ -24,13 +24,15 @@
 
 
 		<div class="topright">
-			<img src="/project/photos/ashish.png" style="width:190px;height:190px;margin-left:5px;float:left;margin-top:-15px">
-			<span style="font-size:28px;letter-spacing:3px;font-family:Arial;"><center><a id="top">Shree Pragya Epilepsy Research Center</a></center></span>
-			<span style="font-size:28px;letter-spacing:2px;font-family:Arial;"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
-			<span style="font-size:18px;"><center>Gulabpura, (Dist. Bhilwara) 311021</center></span>
+			<img class="logo" src="http://49b5af5c747982f45fd7-dec8f175b0901987f30693abc46dc353.r35.cf2.rackcdn.com/icon/13/10/17/2a89d45ea801d8afe6a4a6ab207249b9.png" alt="" >
+			<span class="head1" id="top"><center>Shree Pragya Epilepsy Research Center</center></span>
+			<span class="head1"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
+			<span style="font-size:18px;"><center>&ndash; Gulabpura, (Dist. Bhilwara) 311021 &ndash;</center></span>
+			
+			<center style="font-size:18px;">In Association with PKV Hospital, Bijainagar<a href="http://www.pkvhospital.com/"> &ndash; www.pkvhospital.com</a></center>
 			<span style="position:absolute;bottom:30px;left:220px;">Reg. No. 205/83 Dated 15/9/1984</span>
 			
-			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://twitter.com/ashishsurana1"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
+			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://www.facebook.com/pragyaepilepsycare" target="_blank"><img src="/project/photos/Facebook_icon.png" alt="" style="width:27px;height:27px;left:20px;"></a></span>
 			<div class="mrqs">
 				<marquee style="text-size:17px;margin-right:10px;">Donations Are Exempted Under Section 80 G Of the Income Tax Act 1961 vide IT Commissioner order no. 36/401 dated 02/07/1985.</marquee>
 			</div>	 
@@ -39,14 +41,14 @@
 
 
 		<div class="menu" align="center">
-				<p><ul class="menulist" >
+			<ul class="menulist" >
  			<li><a href="/project/home.html">HOME</a></li>
  			|<li><a href="/project/aboutus.html">ABOUT US</a></li>
  			|<li><a href="/project/facilities.html">FACILITIES</a></li>
 			|<li><a href="/project/faqs.html">FAQs</a></li>
 			|<li><a href="/project/joinhands.html">DONATE</a></li>
 			|<li><a href="/project/contactus.html">CONTACT US</a></li>
-			</ul></p>
+			</ul>
 		</div>
 			
 		
@@ -66,9 +68,7 @@
 				<dd><a href="#C2_4">Epilepsy & Children</a></dd>
 				<li>Life with epilepsy</li>
 				<dd><a href="#C3_1">Diet</a></dd>
-				<dd><a href="#C3_2">Exercise</a></dd>
-				<dd><a href="#C3_3">Do's & Don'ts</a></dd>
-				<li><a href="#C4">Laws on Epilepsy</a></li>
+				<dd><a href="#C3_2">Exercise</a></dd></a></li>
 				<li>Treatment Options</li>
 				<dd><a href="#C5_1">Medication</a></dd>
 				<dd><a href="#C5_2">Surgery</a></dd>
@@ -76,10 +76,12 @@
 
 				
 			</ul>
+				<dd><a href="#C3_3">Do's & Don'ts</a></dd>
+				<li><a href="#C4">Laws on Epilepsy
 		</div>
 
 		<div class="content">	
-			<img src="/project/photos/epilepsy.jpg" style="width:640px;height:265px;border:3px solid;display:block;margin: 0 auto;">
+			<img src="/project/photos/epilepsy.jpg" alt="" class="hometop">
 			
 
 
@@ -106,7 +108,7 @@
 				<p class="causes">The diagnosis of epilepsy usually requires that the seizures occur spontaneously. Nevertheless, certain epilepsy syndromes require particular precipitants or triggers for seizures to occur. These are termed reflex epilepsy. For example, patients with primary reading epilepsy have seizures triggered by reading. Photosensitive epilepsy can be limited to seizures triggered by flashing lights. Other precipitants can trigger an epileptic seizure in patients who otherwise would be susceptible to spontaneous seizures. For example, children with childhood absence epilepsy may be susceptible to hyperventilation.</p>
 				<p class="causes">In fact, flashing lights and hyperventilation are activating procedures used in clinical EEG to help trigger seizures to aid diagnosis. Finally, other precipitants can facilitate, rather than obligatory trigger seizures in susceptible individuals. Emotional stress, sleep deprivation, sleep itself, heat stress, alcohol and febrile illness are examples of precipitants cited by patients with epilepsy. Notably, the influence of various precipitants varies with the epilepsy syndrome. Likewise, the menstrual cycle in women with epilepsy can influence patterns of seizure recurrence. Catamenial epilepsy is the term denoting seizures linked to the menstrual cycle.</p>
 				<p class="causes">There are around 180,000 new cases of epilepsy each year. About 30% occur in children. Children and elderly adults are the ones most often affected.<br>There is a clear cause for epilepsy in only a minority of the cases. Typically, the known causes of seizure involve some injury to the brain. Some of the main causes of epilepsy include:</p>
-				<p>
+				
 					<ul class="bulleted_list">
 					<li>Low oxygen during birth</li>
 					<li>Head injuries that occur during birth or from accidents during youth or adulthood</li>
@@ -116,7 +118,7 @@
 					<li>Stroke or any other type of damage to the brain</li>
 					<li>Abnormal levels of substances such as sodium or blood sugar</li>
 					</ul>
-				</p>
+				
 
 
 
@@ -299,7 +301,7 @@ The results are showing promise in controlling seizures in young children and so
 
 
 
-<h1 style="font-size:25px"><a id="C3_2">Exercising with Epilepsy<a></h1>
+<h1 style="font-size:25px"><a id="C3_2">Exercising with Epilepsy</a></h1>
 <p>Don’t let fear of having a seizure may keep you from enjoying the benefits of regular physical activity. Seizures rarely occur during exercise; in fact, regular exercise inhibits seizure activity! Appropriate exercise can also help you maintain a healthy body weight, boost immunity, reduce stress, sleep better and feel more energized. The key to maximizing the benefits of exercise is to follow a well designed program that you can stick to over the long term.
 </p>
 <p class="exercise">
@@ -310,8 +312,7 @@ The results are showing promise in controlling seizures in young children and so
 <li>Talk with your neurologist about whether or not you are sufficiently stable to start doing<br />
 regular exercise</li>
 <li>Take all medications as recommended by your physician</li>
-<li>The primary goal of your program is to improve your overall fitness level by choosing</li>
-<p>activities that you enjoy and will do on a regular basis</li>
+<li>The primary goal of your program is to improve your overall fitness level by choosing activities that you enjoy and will do on a regular basis</li>
 <li>Choose large-muscle activities, such as walking, biking, rowing or jogging</li>
 <li>If your fitness level is low, start with shorter sessions (10 to 15 minutes) and gradually<br />
 build up to 30 minutes of aerobic activity, five days per week</li>
@@ -491,14 +492,20 @@ These interim results show decreased seizure frequency, improved quality of life
 		</div>
 
 
+		
+
+
+
 		<div class="event">
 			<a href="/project/events.html"><div class="innerdiv" ><h1><center>NEWS & EVENTS</center></h1></div></a>
 			
-			
-				
 			<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"><hr><a href="/project/events.html">The Upcoming Free checkup Camp will held on 15 November 2014. Kindly spread this message.</a><hr></marquee>
-			
-		
 		</div>
+
+
+
+
+
+
 	</body>
 </html>

@@ -9,14 +9,14 @@
 		<link rel="stylesheet" type="text/css" href="home.css">
 		<link rel="stylesheet" type="text/css" href="helper.css">
 		<link rel="shortcut icon" href="/project/photos/icon.ico">
-	<style>
-			.menu{
-				font-size: 18px;
-			}
-
-	</style>
+	
 	</head>
 
+	<style>
+	.content p{
+		font-size: 17px;
+	}
+	</style>
 
 	<body>
 		<div class="overlay"></div>
@@ -24,13 +24,16 @@
 
 
 		<div class="topright">
-			<img src="/project/photos/ashish.png" style="width:190px;height:190px;margin-left:5px;float:left;margin-top:-15px">
-			<span style="font-size:28px;letter-spacing:3px;font-family:Arial;"><center><a id="top">Shree Pragya Epilepsy Research Center</a></center></span>
-			<span style="font-size:28px;letter-spacing:2px;font-family:Arial;"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
-			<span style="font-size:18px;"><center>Gulabpura, (Dist. Bhilwara) 311021</center></span>
+			
+			<img class="logo" src="http://49b5af5c747982f45fd7-dec8f175b0901987f30693abc46dc353.r35.cf2.rackcdn.com/icon/13/10/17/2a89d45ea801d8afe6a4a6ab207249b9.png" alt="" >
+			<span class="head1" id="top"><center>Shree Pragya Epilepsy Research Center</center></span>
+			<span class="head1"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
+			<span style="font-size:18px;"><center>&ndash; Gulabpura, (Dist. Bhilwara) 311021 &ndash;</center></span>
+			
+			<center style="font-size:18px;">In Association with PKV Hospital, Bijainagar<a href="http://www.pkvhospital.com/"> &ndash; www.pkvhospital.com</a></center>
 			<span style="position:absolute;bottom:30px;left:220px;">Reg. No. 205/83 Dated 15/9/1984</span>
 			
-			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://twitter.com/ashishsurana1" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
+			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://www.facebook.com/pragyaepilepsycare" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
 			<div class="mrqs">
 				<marquee style="text-size:17px;margin-right:10px;">Donations Are Exempted Under Section 80 G Of the Income Tax Act 1961 vide IT Commissioner order no. 36/401 dated 02/07/1985.</marquee>
 			</div>	 
@@ -61,10 +64,11 @@
 				<li><a href="/project/epilepsy.html">&ndash; Understand Epilepsy</a></li>
 				<li><a href="/project/governing.html">&ndash; Governing Body</a></li>
 				<li><a href="/project/media_room.html">&ndash; Media Room</a></li>
-				<li><a href="/project/gallary.html">&ndash; Gallary</a></li>
+				<li><a href="/project/gallary.html">&ndash; Gallery</a></li>
 				<li><a href="/project/balance.html">&ndash; Balance Sheets</a></li>
 				<li><a href="/project/events.html">&ndash; Events</a></li>
-				<li><a href="http://goo.gl/forms/Gu6unZvJ46">&ndash; Submit Queries</a></li>
+				<li><a href="/project/aware.html">&ndash; Spread Awareness</a></li>
+				<li><a href="http://goo.gl/forms/Gu6unZvJ46" target="_blank">&ndash; Submit Queries</a></li>
 			</ul>
 		</div>
 
@@ -73,29 +77,23 @@
 
 
 		<div class="content">
-
+			<h2>Documents :</h2>
+			<p style="text-indent:0px;margin-left:20px;">Balance Sheet Last three Years(Comparative))<br>
+			<a href="#1">Financial Year 2013-2014</a>
+			<a href="/project/photos/balance.pdf" download="balancesheet"> Download all pages (PDF)</a><br>
+			<a href="#reg">NGO Registration Certificate</a><br>
+			
+			
+		</p>
 			<h1 style="font-size:23px;">Balance Sheet</h1>
 			
-			<p style="text-indent:0px;margin-left:20px;">
-			<a href="#1">Financial Year 2013-2014</a>
-			<a href="/project/photos/pdf1.pdf" download="FY1314">Download (PDF)</a>
-			<br>
-			<a href="#2">Financial Year 2012-2013</a>
-			<a href="/project/photos/pdf1.pdf" download="FY1314">Download (PDF)</a><br>
-			<a href="#3">Financial Year 2011-2012</a>
-			<a href="/project/photos/pdf1.pdf" download="FY1314">Download (PDF)</a>
-		</p>
-			<h1 style="font-size:23px;"><a id="1">Financial Year 2013-2014</a></h1>
-			 <img src="/project/photos/FY11.png" class="BS">
-			 <img src="/project/photos/FY11.png" class="BS">
-		
- 			 <h1 style="font-size:23px;"><a id="2">Financial Year 2012-2013</a></h1>
-			 <img src="/project/photos/FY11.png" class="BS">
-			 <img src="/project/photos/FY11.png" class="BS">
-		
- 			 <h1 style="font-size:23px;"><a id="3">Financial Year 2011-2012</a></h1>
-  			 <img src="/project/photos/FY11.png" class="BS">
-  			 <img src="/project/photos/FY11.png" class="BS">
+			
+			
+  			 <img src="/project/photos/comparative.jpg" class="BS">
+
+			<h2><a id="reg">NGO Registration Certificate</a></h2>
+			<img src="/project/photos/ngocert.jpg" class="BS">
+
 		</div>
 
 		

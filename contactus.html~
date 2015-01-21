@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<title>Contact | Pragya Epilepsy Research Center</title>
+
 	<head>
-		
+			<title>Contact | Pragya Epilepsy Research Center</title>
 		<meta charset="UTF-8">
 
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
@@ -17,15 +17,33 @@
 src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
 </script>
 
+
 <script>
+var myCenter=new google.maps.LatLng(25.9007365,74.6577144);
+
+
 function initialize()
 {
 var mapProp = {
-  center:new google.maps.LatLng(25.9007365,74.6577144),
-  zoom:16,
+  center:myCenter,
+  zoom:15,
   mapTypeId:google.maps.MapTypeId.ROADMAP
   };
+
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  animation:google.maps.Animation.BOUNCE
+  });
+
+marker.setMap(map);
+
+var infowindow = new google.maps.InfoWindow({
+  content:"Shree Pragya Epilepsy Research Center!"
+  });
+
+infowindow.open(map,marker);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
@@ -36,12 +54,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 		
-	<style>
-			.menu{
-				font-size: 18px;
-			}
-
-	</style>
+		
 	</head>
 
 
@@ -51,13 +64,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 		<div class="topright">
-			<img src="/project/photos/ashish.png" style="width:190px;height:190px;margin-left:5px;float:left;margin-top:-15px">
-			<span style="font-size:28px;letter-spacing:3px;font-family:Arial;"><center><a id="top">Shree Pragya Epilepsy Research Center</a></center></span>
-			<span style="font-size:28px;letter-spacing:2px;font-family:Arial;"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
-			<span style="font-size:18px;"><center>Gulabpura, (Dist. Bhilwara) 311021</center></span>
+			
+			<img class="logo" src="http://49b5af5c747982f45fd7-dec8f175b0901987f30693abc46dc353.r35.cf2.rackcdn.com/icon/13/10/17/2a89d45ea801d8afe6a4a6ab207249b9.png" alt="" >
+			<span class="head1" id="top"><center>Shree Pragya Epilepsy Research Center</center></span>
+			<span class="head1"><center>(Shree Pragya Mrigi Rog Nivarak Samiti)</center></span>
+			<span style="font-size:18px;"><center>&ndash; Gulabpura, (Dist. Bhilwara) 311021 &ndash;</center></span>
+			
+			<center style="font-size:18px;">In Association with PKV Hospital, Bijainagar<a href="http://www.pkvhospital.com/"> &ndash; www.pkvhospital.com</a></center>
 			<span style="position:absolute;bottom:30px;left:220px;">Reg. No. 205/83 Dated 15/9/1984</span>
 			
-			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://twitter.com/ashishsurana1" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:27px;height:27px;left:20px;"></a></span>
+			<span style="position:absolute;bottom:30px;right:10px;font-size:18.5px;">Follow here <a href="http://www.facebook.com/pragyaepilepsycare" target="_blank"><img src="/project/photos/Facebook_icon.png" alt="" style="width:27px;height:27px;left:20px;"></a></span>
 			<div class="mrqs">
 				<marquee style="text-size:17px;margin-right:10px;">Donations Are Exempted Under Section 80 G Of the Income Tax Act 1961 vide IT Commissioner order no. 36/401 dated 02/07/1985.</marquee>
 			</div>	 
@@ -66,14 +82,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 		<div class="menu" align="center">
-				<p><ul class="menulist" >
+			<ul class="menulist" >
  			<li><a href="/project/home.html">HOME</a></li>
  			|<li><a href="/project/aboutus.html">ABOUT US</a></li>
  			|<li><a href="/project/facilities.html">FACILITIES</a></li>
 			|<li><a href="/project/faqs.html">FAQs</a></li>
 			|<li><a href="/project/joinhands.html">DONATE</a></li>
 			|<li><a href="/project/contactus.html">CONTACT US</a></li>
-			</ul></p>
+			</ul>
 		</div>
 			
 		
@@ -83,14 +99,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 		<div class="shortlist">
-			<h1 >Useful Links</h2>
+			<h1 >Useful Links</h1>
 			<ul style="list-style-type:none;margin-left:25px;">
 				<li><a href="/project/epilepsy.html">&ndash; Understand Epilepsy</a></li>
 				<li><a href="/project/governing.html">&ndash; Governing Body</a></li>
 				<li><a href="/project/media_room.html">&ndash; Media Room</a></li>
-				<li><a href="/project/gallary.html">&ndash; Gallary</a></li>
+				<li><a href="/project/gallary.html">&ndash; Gallery</a></li>
 				<li><a href="/project/balance.html">&ndash; Balance Sheets</a></li>
 				<li><a href="/project/events.html">&ndash; Events</a></li>
+				<li><a href="/project/aware.html">&ndash; Spread Awareness</a></li>
 				<li><a href="http://goo.gl/forms/Gu6unZvJ46" target="_blank">&ndash; Submit Queries</a></li>
 			</ul>
 		</div>
@@ -108,21 +125,21 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 				<h1 >Complete Address</h1>
-				<p style="line-height:125%;text-indent:0px;">
+				<p style="text-indent:0px;">
 					Shree Pragya Mrigi Rog Nivarak Samiti<br>
 					( Shree Pragya Epilepsy Research Center)<br>
 					Govt. Hospital Road, <a href="http://en.wikipedia.org/wiki/Gulabpura" target="_blank">Gulabpura</a> 311021<br>
 					(Dist. - BHILWARA), Rajasthan<br>
 					Phone - 01483-223969<br>
-					e-mail- <a href="" target="_blank">XXXXXXXXXXXXXXXXX</a><br>
-					Web-XXXXXXXXXXXXXXXXXX<br>
-					Like Us on Facebook <a href="http://twitter.com/ashishsurana1" target="_blank"><img src="/project/photos/Facebook_icon.png" style="width:25px;height:25px;left:20px;"></a>
+					e-mail- pragyaepilepsycenter@gmail.com<br>
+					Web-<a href=">http://www.pragyaepilepsycenter.com" target="_blank" style="font-size:18px;">   www.pragyaepilepsycenter.com</a><br>
+					Like Us on Facebook <a href="http://www.facebook.com/pragyaepilepsycare" target="_blank"><img src="/project/photos/Facebook_icon.png" alt="" style="width:25px;height:25px;left:20px;"></a>
 				</p>
 				<h2 >Contact Person</h2>
-				<p style="margin-left:20px;">
-					<dl>
-						<dd>Mr. Chand Mal Ranka</dd>
-						<dd>+91XXXXXXXXXX</dd><br>
+				<p style="margin-left:20px;text-indent:0px;font-size:17px;">					
+					Mr. Chand Mal Ranka<br>
+					+919251576536<br>
+				</p>
 						<div class="timing">
 							<h2>Hospital Timings &ndash;</h2>
 							<p style="text-indent:10px">1. From 1 march to 31 October</p>
@@ -130,13 +147,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 							<p style="text-indent:10px">2. From 1 November to 29 February</p>
 							<p>9:30AM to 1:30PM & 4:00PM to 6:00PM</p>
 
-
-
 						</div>
-						
-					</dl>
-				</p>
-		
+
+
+			<span style="position:absolute;bottom:0px;right:3px;">Designed By:<br>&ndash; <a href="http://twitter.com/ashishsurana1" target="_blank">Ashish Surana</a></span>
 
 		</div>
 
@@ -146,7 +160,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		
 
 		<div class="footer">
-			<p><center>© Shree Pragya Mrigi Rog Nivarak Samiti, Gulabpura</center> </p>
+			<center>© Shree Pragya Mrigi Rog Nivarak Samiti, Gulabpura</center>
 			<div class="gotop">
 				<a href="#top"><img  src="/project/photos/button-gototop.gif"></a>
 
@@ -156,8 +170,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		<div class="event">
 			<a href="/project/events.html"><div class="innerdiv" ><h1><center>NEWS & EVENTS</center></h1></div></a>
 			
-			
-				
 			<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();"><hr><a href="/project/events.html">The Upcoming Free checkup Camp will held on 15 November 2014. Kindly spread this message.</a><hr></marquee>
 			
 		
