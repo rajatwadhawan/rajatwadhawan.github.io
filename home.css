@@ -1,21 +1,20 @@
-			*{
+		*{
 			margin: auto;
 			padding: 0px;
 			line-height: 135%;
 			background-color: transparent;
 		}
-		.logo { width:150px;height:150px;margin-left:5px;float:left;margin-top:-5px;background-color: #7CC2E9;
+		.logo { width:125px;height:125px;margin-left:10px;float:left;margin-top:-3px;
 
 		}
 		.topright {
 		
 			color:black;
-			height:200px;
+			height:155px;
 			width:800px;
 			position: relative;
 			line-height: 50px;
 			padding-top: 10px;
-			
 			border:2px solid;
 			border-bottom:0px;border-top:0px;
 			box-sizing: border-box;
@@ -23,14 +22,13 @@
 		}
 		.menu {
 			
-			height:50px;
+			height:35px;
 			width: 800px;
-			border-bottom: 2.5px solid;
 			background: linear-gradient(#7CC2E9,#FFFFFF);
-			padding:8px; 
+
+			padding:7px; 
 			position: relative;
 			box-sizing: border-box;
-			font-size: 18px;
 			letter-spacing:0.5px;
 			border:2px solid;
 			border-bottom:0px;
@@ -41,12 +39,14 @@
 		
 		.shortlist{
 			width:800px;
+			height:50px;
 			color:black;			
 			border: 2px solid;
 			border-top:0.5px;
-border-bottom:0px;
+			border-bottom:0px;
 			position:relative;
 			box-sizing: border-box;
+			text-align: center;
 			
 			
 		}
@@ -70,15 +70,16 @@ border-bottom:0px;
 			text-align: left;
 			box-sizing: border-box;
 			border-top: 0px;
-			padding: 5px;	
+			padding-top: 8px;	
+			border-bottom:0px;
 			
 		}
 		.event{
-			height: 300px;
-			width: 150px;
+			height: 30px;
+			width: 800px;
 			top:250px;
 			right: 0px;
-			position: absolute;
+			position: relative;
 			border:2px solid #2499DB;
 			padding: 10px;
 			padding-top:50px;
@@ -87,8 +88,8 @@ border-bottom:0px;
 			
 		}
 		.innerdiv{
-			width: 220px;
-			height: 40px;
+			width: 80px;
+			height: 30px;
 			border: 2px solid #2499DB;
 			border-radius: 10px;
 			padding-top: 10px;
@@ -98,15 +99,19 @@ border-bottom:0px;
 		}
 		.footer{
 	
-			color: #0000FF;
-
+			<!--color: #0000FF;-->
 			text-align: center;
 			vertical-align: middle;
 			position: relative;
-			height: 30px;
-			top:5px;
+			height: 28px;
+			width:800px;
+			top:0px;
 			background-color: #7CC2E9;
-			padding-top: 5px;
+			padding-top: 0px;
+			border: 2px solid;
+			border-top:0px;
+			border-bottom:2px;
+			box-sizing: border-box;
 
 		}
 		
@@ -119,7 +124,6 @@ border-bottom:0px;
 			bottom: 0px;
 			text-align: center;
 			right: 0px;
-			line-height: 25px;
 			float: right;
 			position: absolute;
 			border: 0px solid;
@@ -133,17 +137,6 @@ border-bottom:0px;
 			right: 0px;
 
 		}
-		a:link {
-			color: #0000FF;
-			text-decoration: none;
-
-		}		
-		a:hover{			
-			color: #B80000;
-			font-weight: bold;
-
-		}	
-
 		.map{
 			height: 300px;
 			width: 300px;
@@ -166,7 +159,7 @@ border-bottom:0px;
 			right: 0px;
 			bottom: 0px;
 			border: 0px solid;
-			padding: 3px;
+			padding: 0px;
 			background-color: #7CC2E9;
 		}
 		
@@ -180,6 +173,23 @@ border-bottom:0px;
 
 		}
 		.hometop {
-			width:95%;height:300px;border:2px solid;display: block;margin: 0 auto;			
+			width:95%;
+			height:300px;
+			border:2px solid;
+			display: block;
+			margin: 0 auto;			
 
+		}
+		.head_part_of_list{
+					
+			padding-left:10px;
+			width:120px;
+			height:50px;
+			float:left;
+			text-align: center;
+		}
+		.haveaglance{
+			line-height:270%;
+			font-size:18px;
+			font-weight: bold;
 		}

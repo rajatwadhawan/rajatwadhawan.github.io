@@ -1,16 +1,17 @@
 		.menulist li {
 			display:inline;
-			font-size:19px;
+			font-size:17.5px;
 			padding:17px;
 		}
 		.shortlist li{
-			display:inline;padding:10px;
+			display:inline;
+			padding:10px;
 		}
 		.menulist a:hover{
 			
 			color:#B8B8B8;
 			 font-weight: bold;
-			font-size:22px;
+			font-size:18px;
 
 			
 		}
@@ -70,7 +71,6 @@
 		}
 	
 
-
 		.gtop {
 			width:50px;
 			height:30px;
@@ -81,6 +81,18 @@
 			position: fixed;
 		}
 		.head1 {
-		font-size:28px;letter-spacing:1.5px;margin-top:-10px;
+		font-size:22px;letter-spacing:1.5px;margin-top:-10px;
 		}
 		
+		a:link {
+			color: #0000FF;
+			text-decoration: none;
+
+		}		
+		a:hover{			
+			color: #B80000;
+			font-size:16.5px;
+			<!--font-weight: bold;-->
+
+		}	
+
