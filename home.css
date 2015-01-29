@@ -182,8 +182,8 @@
 		}
 		.head_part_of_list{
 					
-			padding-left:10px;
-			width:120px;
+			padding-left:3px;
+			width:130px;
 			height:50px;
 			float:left;
 			text-align: center;
@@ -192,4 +192,13 @@
 			line-height:270%;
 			font-size:18px;
 			font-weight: bold;
+		}
+		.follow_here{
+			position:absolute;bottom:22px;right:30px;font-size:17.5px;
+		}
+		.fbicon{
+			width:25px;height:25px;
+		}
+		.marquee{
+			text-size:17px;margin-right:10px;margin-bottom:-12px;margin-left:13px;
 		}
