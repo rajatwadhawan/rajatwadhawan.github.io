@@ -204,15 +204,23 @@
 		.marquee{
 			text-size:17px;margin-right:10px;margin-bottom:-12px;margin-left:13px;
 		}
-		.scroller{
-			width: 796px; height:100px; 
+		.scrollerinside{
+			width: 600px; height:100px; 
 			overflow-y:scroll;
 			overflow-x:hidden; 
-			border:2px solid;
 			color: black;
-
-
 			position: relative;
-			border-top: 0px;
-			border-bottom:0px;
+			margin: auto;
+			border:1px solid;
+		}
+		.scrollerblock{
+			width: 800px;
+			height: 100px;
+			position: relative;
+			border-left: 2px solid;
+			border-right: 2px solid;
+
+			box-sizing: border-box;
+			
+
 		}

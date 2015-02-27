@@ -1,21 +1,22 @@
+		
+		.shortlist li{
+			display:inline;
+			padding:10px;
+		}
+		.menulist a:hover{			
+			color:#B8B8B8;
+			 font-weight: bold;
+			font-size:18px;
+		}
+
 		.menulist li {
 			display:inline;
 			font-size:17.5px;
 			padding:17px;
 		}
-		.shortlist li{
-			display:inline;
-			padding:10px;
-		}
-		.menulist a:hover{
-			
-			color:#B8B8B8;
-			 font-weight: bold;
-			font-size:18px;
 
-			
-		}
-		.menulist a:link{
+		
+		.menulist a:link {
 			color: #B80000;
 
 		}
@@ -90,7 +91,7 @@
 		a:hover{			
 			color: #B80000;
 			font-size:16.5px;
-			<!--font-weight: bold;-->
+			/*<!--font-weight: bold;-->
 
 		}	
 
