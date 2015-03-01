@@ -16,7 +16,7 @@
 			line-height: 50px;
 			padding-top: 10px;
 			border:2px solid;
-			border-bottom:0px;border-top:0px;
+			border-bottom:0px;border-top:2px solid;
 			box-sizing: border-box;
 						
 		}
